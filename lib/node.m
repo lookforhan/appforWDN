@@ -7,8 +7,8 @@ classdef node < handle
         y
     end
     methods
-        function node(id)
-            node.id=id;
+        function obj=node(id)
+            obj.id=id;
         end
     end
 end
