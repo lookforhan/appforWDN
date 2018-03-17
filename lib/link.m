@@ -8,7 +8,7 @@ classdef link
     end
     methods
         function obj = link(id)
-            obj.id=id
+            obj.id=id;
         end
     end
 end
