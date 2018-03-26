@@ -12,6 +12,10 @@ the water distribution network is composed by node(junction,tank,reservoirs) and
 
 ## TEST-DRIVEN DEVELOPMENT
 I develop this program based on MATLAB Unit Test Framework.
+1.propose the necessary demands
+2.write a test file
+3.realize the algorithm
+4.run the test
 ## HOW TO BUILD THE PROGRAM
 I  
 
