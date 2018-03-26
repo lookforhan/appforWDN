@@ -1,6 +1,6 @@
 %% name: node.m
 % this is a class of node
-classdef node < handle
+classdef node < components 
     properties
         id
         x

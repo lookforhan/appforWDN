@@ -1,6 +1,6 @@
 %% name:link.m
 % this is a new class:link
-classdef link
+classdef link < components
     properties
         id
         node1
