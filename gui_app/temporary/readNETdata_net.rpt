@@ -1,0 +1,37 @@
+  Page 1                                    Fri Apr 20 21:35:19 2018
+
+  ******************************************************************
+  *                           E P A N E T                          *
+  *                   Hydraulic and Water Quality                  *
+  *                   Analysis for Pipe Networks                   *
+  *                         Version 2.00.12                        *
+  ******************************************************************
+  
+  Scenario:	»ù´¡	 
+  Date:	2013-9-11	19:48:06 
+   
+      Input Data File ................... C:\Users\hc042\Documents\MATLAB\gui_app\example\GWSL_4.inp
+      Number of Junctions................ 49
+      Number of Reservoirs............... 4
+      Number of Tanks ................... 0
+      Number of Pipes ................... 78
+      Number of Pumps ................... 0
+      Number of Valves .................. 0
+      Headloss Formula .................. Hazen-Williams
+      Hydraulic Timestep ................ 1.00 hrs
+      Hydraulic Accuracy ................ 0.001000
+      Status Check Frequency ............ 2
+      Maximum Trials Checked ............ 10
+      Damping Limit Threshold ........... 0.000000
+      Maximum Trials .................... 40
+      Quality Analysis .................. None
+      Specific Gravity .................. 1.00
+      Relative Kinematic Viscosity ...... 1.00
+      Relative Chemical Diffusivity ..... 1.00
+      Demand Multiplier ................. 1.00
+      Total Duration .................... 0.00 hrs
+      Reporting Criteria:
+         No Nodes
+         No Links
+   
+  Analysis begun Fri Apr 20 21:35:19 2018
