@@ -47,6 +47,7 @@ for n=1:circulation_num%确定循环次数
 end 
 calllib('epanet2','ENsetreport','NODES ALL'); % 设置输出报告的格式
 calllib('epanet2','ENreport'); %输出计算报告
+calllib('epanet2','ENclose'); %关闭计算
 node_id=node_original_data(:,1);
 original_junction_num=numel(node_id);
 [out_pre,out_demand]=Get_chosen_node_value(original_junction_num,node_id);
