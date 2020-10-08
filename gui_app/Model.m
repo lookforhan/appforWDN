@@ -20,13 +20,15 @@ classdef Model < handle
             load epa_format.mat
             t=libisloaded('epanet2');
             if t==0
-            loadlibrary('epanet2.dll','epanet2.h');
+                loadlibrary('epanet2.dll','epanet2.h');
             end
-%             validateattributes(errorCode,{'numeric'},{'==',0},'Model','Model_ENopen');
+            %             validateattributes(errorCode,{'numeric'},{'==',0},'Model','Model_ENopen');
             obj.pdd=PDD_Parameter();
             obj.epaFormat = epa_format;
         end
         function run(obj,input)
+            diary on
+            disp('diary on')
             obj.outputFolder = input.outputFolder;
             obj.Inpfile = input.Inpfile;
             obj.RRfile = input.RRfile;
@@ -38,6 +40,7 @@ classdef Model < handle
             MC_pre_cell = cell(1,obj.MCnum);
             MC_dem_cell = cell(1,obj.MCnum);
             for MC_i = 1:obj.MCnum
+                disp(['第',num2str(MC_i),'次MC抽样：'])
                 obj.creatDamageInfo();
                 damage_inp_File  = [obj.outputFolder,'\damageNet_',num2str(MC_i),'.inp'];
                 obj.creatDamageModel(damage_inp_File);
@@ -50,6 +53,7 @@ classdef Model < handle
             dlmwrite([obj.outputFolder,'\Pressure.txt'],MC_pre,'delimiter','\t','newline','pc','precision','%2.3f');
             dlmwrite([obj.outputFolder,'\demand.txt'],MC_pre,'delimiter','\t','newline','pc','precision','%2.3f');
             obj.notify('runOver');
+            diary off
         end
         function readNet(obj)
             Net = readNETdata(obj.Inpfile);
@@ -94,7 +98,7 @@ classdef Model < handle
                 dataT=[];
             end
             [isolated_node_num,Nid,Nloc,Pid,Ploc]=NC_bfs3(dataP,dataR,dataC,dataT);
-%             all_node_coordinate=[net_data{23,2};all_add_node_data(:,1:3)];
+            %             all_node_coordinate=[net_data{23,2};all_add_node_data(:,1:3)];
             all_node_coordinate=[net_data{23,2};all_add_node_data(:,1:3)]; %所有节点坐标（包括水源、水池、用户节点）；!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             if isolated_node_num==0
                 disp('破损管网连通性检查完成,不存在孤立节点！')
