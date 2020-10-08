@@ -16,9 +16,12 @@ classdef Model < handle
     end
     methods
         function obj =Model()
+            % addpath('./lib')
             load epa_format.mat
-            addpath('./lib')
+            t=libisloaded('epanet2');
+            if t==0
             loadlibrary('epanet2.dll','epanet2.h');
+            end
 %             validateattributes(errorCode,{'numeric'},{'==',0},'Model','Model_ENopen');
             obj.pdd=PDD_Parameter();
             obj.epaFormat = epa_format;
