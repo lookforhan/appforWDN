@@ -13,10 +13,14 @@ classdef readNETdata < handle
     methods
         function obj = readNETdata(file)
             obj.file = file;
+            t_f = isfolder('.\temporary');
+            if t_f == 0
+                mkdir('.\temporary');
+            end
             temp_file = '.\temporary\readNETdata_net.inp';
             t = libisloaded('epanet2');
             if t ==0
-            loadlibrary('epanet2.dll','epanet2.h')
+            [notfound,warnings] = loadlibrary('epanet2',@epanet2protofile);
             end
             obj.errorCode=calllib('epanet2','ENopen',file,'.\temporary\readNETdata_net.rpt','.\temporary\readNETdata_net.out');
             errorCode2=calllib('epanet2','ENsaveinpfile',temp_file);
