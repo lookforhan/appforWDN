@@ -16,6 +16,9 @@ I develop this program based on MATLAB Unit Test Framework.
 2.write a test file
 3.realize the algorithm
 4.run the test
+## HOW TO USE THE PROGRAM
+Run ./gui_app/start_toolkit.m
+Run ./gui_app/main.m
 ## HOW TO BUILD THE PROGRAM
-I  
-
+cd ./gui_app
+mcc -m main.m -a ./lib
