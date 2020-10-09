@@ -28,6 +28,7 @@ classdef Model < handle
             obj.epaFormat = epa_format;
         end
         function run(obj,input)
+            diary on % ´ò¿ª¼ÇÂ¼
             obj.outputFolder = input.outputFolder;
             obj.Inpfile = input.Inpfile;
             obj.RRfile = input.RRfile;
@@ -51,6 +52,7 @@ classdef Model < handle
             MC_dem = cell2mat(MC_dem_cell);
             dlmwrite([obj.outputFolder,'\Pressure.txt'],MC_pre,'delimiter','\t','newline','pc','precision','%2.3f');
             dlmwrite([obj.outputFolder,'\demand.txt'],MC_pre,'delimiter','\t','newline','pc','precision','%2.3f');
+            diary off
             obj.notify('runOver');
         end
         function readNet(obj)
