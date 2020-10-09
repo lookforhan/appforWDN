@@ -1,0 +1,21 @@
+[警告: 目录已存在。] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Model/run', 'D:\github\appforWDN\gui_app\Model.m', 36)" style="font-weight:bold">Model/run</a> (<a href="matlab: opentoline('D:\github\appforWDN\gui_app\Model.m',36,0)">line 36</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Controller/callback_ButtonRun', 'D:\github\appforWDN\gui_app\Controller.m', 14)" style="font-weight:bold">Controller/callback_ButtonRun</a> (<a href="matlab: opentoline('D:\github\appforWDN\gui_app\Controller.m',14,0)">line 14</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ViewFigure>@(varargin)controller.callback_ButtonRun(varargin{:})', 'D:\github\appforWDN\gui_app\ViewFigure.m', 55)" style="font-weight:bold">ViewFigure>@(varargin)controller.callback_ButtonRun(varargin{:})</a> (<a href="matlab: opentoline('D:\github\appforWDN\gui_app\ViewFigure.m',55,0)">line 55</a>)] 
+[警告: 在为表创建变量名称之前，对文件中的列标题进行了修改，以使其成为有效的 MATLAB 标识符。原始列标题保存在 VariableDescriptions 属性中。
+将 'PreserveVariableNames' 设置为 true 以使用原始列标题作为表变量名称。] 
+第1次MC抽样：
+无水水池
+破损管网连通性检查完成，存在2个孤立节点，孤立节点及其邻接管段已删除！
+第2次MC抽样：
+无水水池
+破损管网连通性检查完成，存在4个孤立节点，孤立节点及其邻接管段已删除！
+第3次MC抽样：
+无水水池
+破损管网连通性检查完成，存在6个孤立节点，孤立节点及其邻接管段已删除！
+第4次MC抽样：
+无水水池
+破损管网连通性检查完成，存在4个孤立节点，孤立节点及其邻接管段已删除！
+第5次MC抽样：
+无水水池
+破损管网连通性检查完成，存在5个孤立节点，孤立节点及其邻接管段已删除！
