@@ -33,7 +33,7 @@ classdef ViewFigure < handle
             input.MCnum = str2double(MCnum);
         end
         function buildUI(obj)
-            obj.hfig = figure('pos',obj.viewSize,'menubar','none','toolbar','none','name','giraffe','numbertitle','off');
+            obj.hfig = figure('pos',obj.viewSize,'menubar','none','toolbar','none','name','WDNsimulation','numbertitle','off');
             mainLayout =  uix.VBox('parent',obj.hfig,'Padding',5,'spacing',10);
             upperLayout = uix.VBox('pare',mainLayout,'Spacing',5);
             lowerLayout = uix.HBox('pare',mainLayout,'Spacing',5);
