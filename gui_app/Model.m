@@ -20,7 +20,8 @@ classdef Model < handle
             load epa_format.mat
             t=libisloaded('epanet2');
             if t==0
-                loadlibrary('epanet2.dll','epanet2.h');
+                %loadlibrary('epanet2.dll','epanet2.h');
+                [notfound,warnings] = loadlibrary('epanet2',@epanet2protofile);
             end
             %             validateattributes(errorCode,{'numeric'},{'==',0},'Model','Model_ENopen');
             obj.pdd=PDD_Parameter();

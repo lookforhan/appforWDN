@@ -2,7 +2,8 @@ function [out_pre,out_demand]=PDD_run1(inputdata,outputrpt,Hmin,Hdes,circulation
 % inputdata=output_net_filename;%输入文件名称
 t=libisloaded('epanet2');
 if t==0
-    loadlibrary('epanet2.dll','epanet2.h');
+    %loadlibrary('epanet2.dll','epanet2.h');
+    [notfound,warnings] = loadlibrary('epanet2',@epanet2protofile);
 end
 
 calllib('epanet2','ENopen',inputdata,'.\temporary\PDD_run1_demage_net.rpt','.\temporary\PDD_run1_EXAMPLE.out');
