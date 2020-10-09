@@ -22,3 +22,5 @@ Run ./gui_app/main.m
 ## HOW TO BUILD THE PROGRAM
 cd ./gui_app
 mcc -m main.m -a ./lib
+ 
+the executable file is in the folder named“executable”
