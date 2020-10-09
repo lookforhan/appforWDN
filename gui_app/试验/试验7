@@ -1,0 +1,163 @@
+[警告: 目录已存在。] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Model/run', 'D:\github\appforWDN\gui_app\Model.m', 36)" style="font-weight:bold">Model/run</a> (<a href="matlab: opentoline('D:\github\appforWDN\gui_app\Model.m',36,0)">line 36</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Controller/callback_ButtonRun', 'D:\github\appforWDN\gui_app\Controller.m', 12)" style="font-weight:bold">Controller/callback_ButtonRun</a> (<a href="matlab: opentoline('D:\github\appforWDN\gui_app\Controller.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ViewFigure>@(varargin)controller.callback_ButtonRun(varargin{:})', 'D:\github\appforWDN\gui_app\ViewFigure.m', 55)" style="font-weight:bold">ViewFigure>@(varargin)controller.callback_ButtonRun(varargin{:})</a> (<a href="matlab: opentoline('D:\github\appforWDN\gui_app\ViewFigure.m',55,0)">line 55</a>)] 
+[警告: 在为表创建变量名称之前，对文件中的列标题进行了修改，以使其成为有效的 MATLAB 标识符。原始列标题保存在 VariableDescriptions 属性中。
+将 'PreserveVariableNames' 设置为 true 以使用原始列标题作为表变量名称。] 
+第1次MC抽样：
+无水水池
+破损管网连通性检查完成，存在2个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第2次MC抽样：
+无水水池
+破损管网连通性检查完成，存在4个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第3次MC抽样：
+无水水池
+破损管网连通性检查完成，存在6个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第4次MC抽样：
+无水水池
+破损管网连通性检查完成，存在4个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第5次MC抽样：
+无水水池
+破损管网连通性检查完成，存在5个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第6次MC抽样：
+无水水池
+破损管网连通性检查完成，存在8个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第7次MC抽样：
+无水水池
+破损管网连通性检查完成，存在9个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第8次MC抽样：
+无水水池
+破损管网连通性检查完成，存在16个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第9次MC抽样：
+无水水池
+破损管网连通性检查完成，存在9个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第10次MC抽样：
+无水水池
+破损管网连通性检查完成，存在4个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第11次MC抽样：
+无水水池
+破损管网连通性检查完成，存在3个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第12次MC抽样：
+无水水池
+破损管网连通性检查完成，存在3个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第13次MC抽样：
+无水水池
+破损管网连通性检查完成，存在2个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第14次MC抽样：
+无水水池
+破损管网连通性检查完成，存在3个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第15次MC抽样：
+无水水池
+破损管网连通性检查完成，存在12个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第16次MC抽样：
+无水水池
+破损管网连通性检查完成，存在1个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第17次MC抽样：
+无水水池
+破损管网连通性检查完成，存在4个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第18次MC抽样：
+无水水池
+破损管网连通性检查完成，存在8个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第19次MC抽样：
+无水水池
+破损管网连通性检查完成，存在5个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第20次MC抽样：
+无水水池
+破损管网连通性检查完成，存在7个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第21次MC抽样：
+无水水池
+破损管网连通性检查完成，存在2个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第22次MC抽样：
+无水水池
+破损管网连通性检查完成，存在6个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第23次MC抽样：
+无水水池
+破损管网连通性检查完成，存在11个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第24次MC抽样：
+无水水池
+破损管网连通性检查完成，存在4个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第25次MC抽样：
+无水水池
+破损管网连通性检查完成，存在1个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第26次MC抽样：
+无水水池
+破损管网连通性检查完成，存在5个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第27次MC抽样：
+无水水池
+破损管网连通性检查完成，存在13个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第28次MC抽样：
+无水水池
+破损管网连通性检查完成，存在5个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第29次MC抽样：
+无水水池
+破损管网连通性检查完成，存在8个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第30次MC抽样：
+无水水池
+破损管网连通性检查完成，存在8个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第31次MC抽样：
+无水水池
+破损管网连通性检查完成，存在8个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第32次MC抽样：
+无水水池
+破损管网连通性检查完成，存在1个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第33次MC抽样：
+无水水池
+破损管网连通性检查完成，存在5个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第34次MC抽样：
+无水水池
+破损管网连通性检查完成，存在5个孤立节点，孤立节点及其邻接管段已删除！
+存在负压
+第35次MC抽样：
+无水水池
+破损管网连通性检查完成，存在62个孤立节点，孤立节点及其邻接管段已删除！
+无负压
+{调用 "PDD_run1" 时，未对输出参数 "out_pre" (可能还包括其他参数)赋值。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Model/pddRun', 'D:\github\appforWDN\gui_app\Model.m', 114)" style="font-weight:bold">Model/pddRun</a> (<a href="matlab: opentoline('D:\github\appforWDN\gui_app\Model.m',114,0)">line 114</a>)
+            [PDD_pressure,PDD_demand]=PDD_run1(inpfile,out_rpt,obj.pdd.Hmin,obj.pdd.Hdes,obj.pdd.circulation_num,node_original_data);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Model/run', 'D:\github\appforWDN\gui_app\Model.m', 46)" style="font-weight:bold">Model/run</a> (<a href="matlab: opentoline('D:\github\appforWDN\gui_app\Model.m',46,0)">line 46</a>)
+                [PDD_pressure,PDD_demand]=obj.pddRun(damage_inp_File);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Controller/callback_ButtonRun', 'D:\github\appforWDN\gui_app\Controller.m', 12)" style="font-weight:bold">Controller/callback_ButtonRun</a> (<a href="matlab: opentoline('D:\github\appforWDN\gui_app\Controller.m',12,0)">line 12</a>)
+            obj.modelObj.run(obj.viewObj.input);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ViewFigure>@(varargin)controller.callback_ButtonRun(varargin{:})', 'D:\github\appforWDN\gui_app\ViewFigure.m', 55)" style="font-weight:bold">ViewFigure>@(varargin)controller.callback_ButtonRun(varargin{:})</a> (<a href="matlab: opentoline('D:\github\appforWDN\gui_app\ViewFigure.m',55,0)">line 55</a>)
+            funcH1 = @controller.callback_ButtonRun;
+} 
+计算 UIControl Callback 时出错。
+
+diary off
