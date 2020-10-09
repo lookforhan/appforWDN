@@ -9,7 +9,13 @@ classdef Controller < handle
             obj.modelObj = modelObj;
         end
         function callback_ButtonRun(obj,src,event)
-            obj.modelObj.run(obj.viewObj.input);
+            diary Run.log
+            try
+                obj.modelObj.run(obj.viewObj.input);
+            catch
+                diary off
+            end
+            diary off
         end
     end
 end
